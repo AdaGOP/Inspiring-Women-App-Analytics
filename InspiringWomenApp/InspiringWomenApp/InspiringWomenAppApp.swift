@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct InspiringWomenAppApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = PersistenceController.preview
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InspiringWomenView(inspiringWomen: InspiringWomenData.data)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

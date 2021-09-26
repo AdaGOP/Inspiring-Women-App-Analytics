@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5C13912700C8A700C449D7 /* WomenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C13902700C8A700C449D7 /* WomenCardView.swift */; };
+		4E5C13932700D18600C449D7 /* InspiringWomenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C13922700D18600C449D7 /* InspiringWomenData.swift */; };
 		4EE4697B26EA14F200183E40 /* InspiringWomenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4697A26EA14F200183E40 /* InspiringWomenAppApp.swift */; };
-		4EE4697D26EA14F200183E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4697C26EA14F200183E40 /* ContentView.swift */; };
+		4EE4697D26EA14F200183E40 /* InspiringWomenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4697C26EA14F200183E40 /* InspiringWomenView.swift */; };
 		4EE4697F26EA14F400183E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4697E26EA14F400183E40 /* Assets.xcassets */; };
 		4EE4698226EA14F400183E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4698126EA14F400183E40 /* Preview Assets.xcassets */; };
 		4EE4698426EA14F400183E40 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4698326EA14F400183E40 /* Persistence.swift */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E5C13902700C8A700C449D7 /* WomenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenCardView.swift; sourceTree = "<group>"; };
+		4E5C13922700D18600C449D7 /* InspiringWomenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiringWomenData.swift; sourceTree = "<group>"; };
 		4EE4697726EA14F200183E40 /* InspiringWomenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspiringWomenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE4697A26EA14F200183E40 /* InspiringWomenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiringWomenAppApp.swift; sourceTree = "<group>"; };
-		4EE4697C26EA14F200183E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EE4697C26EA14F200183E40 /* InspiringWomenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiringWomenView.swift; sourceTree = "<group>"; };
 		4EE4697E26EA14F400183E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EE4698126EA14F400183E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4EE4698326EA14F400183E40 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				4EE4697A26EA14F200183E40 /* InspiringWomenAppApp.swift */,
-				4EE4697C26EA14F200183E40 /* ContentView.swift */,
+				4EE4697C26EA14F200183E40 /* InspiringWomenView.swift */,
 				4EE4697E26EA14F400183E40 /* Assets.xcassets */,
 				4EE4698326EA14F400183E40 /* Persistence.swift */,
 				4EE4698826EA14F400183E40 /* Info.plist */,
 				4EE4698526EA14F400183E40 /* InspiringWomenApp.xcdatamodeld */,
 				4EE4698026EA14F400183E40 /* Preview Content */,
+				4E5C13902700C8A700C449D7 /* WomenCardView.swift */,
+				4E5C13922700D18600C449D7 /* InspiringWomenData.swift */,
 			);
 			path = InspiringWomenApp;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE4698726EA14F400183E40 /* InspiringWomenApp.xcdatamodeld in Sources */,
+				4E5C13912700C8A700C449D7 /* WomenCardView.swift in Sources */,
+				4E5C13932700D18600C449D7 /* InspiringWomenData.swift in Sources */,
 				4EE4698426EA14F400183E40 /* Persistence.swift in Sources */,
-				4EE4697D26EA14F200183E40 /* ContentView.swift in Sources */,
+				4EE4697D26EA14F200183E40 /* InspiringWomenView.swift in Sources */,
 				4EE4697B26EA14F200183E40 /* InspiringWomenAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

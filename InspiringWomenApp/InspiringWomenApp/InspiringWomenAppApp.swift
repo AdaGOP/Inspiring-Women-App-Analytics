@@ -13,7 +13,7 @@ struct InspiringWomenAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            InspiringWomenView(inspiringWomen: InspiringWomenData.data)
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
